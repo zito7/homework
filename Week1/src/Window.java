@@ -1,12 +1,18 @@
 import javax.swing.*;
 public class Window {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Test");
-		System.out.println("Test");
-		JFrame serte = new JFrame();
+	
+Window(){
+	//instanciation de ma fenetre
+	JFrame fenetre = new JFrame();
+	fenetre.setSize(500, 600);
+	fenetre.setName("Bienvenue");
+	fenetre.setLocationRelativeTo(null);
+	fenetre.setVisible(true);
+	
+	
+}
 
-	}
+	
 
 }
